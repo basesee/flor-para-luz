@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #87CEEB; /* Cielo azul */
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #FFDD57;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-family: 'Comic Sans MS', sans-serif; /* Estilo amigable */
+}
+
+.scene {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background-color: #87CEEB;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding-top: 20px;
+}
+
+.sun {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    width: 80px;
+    height: 80px;
+    background-color: #FFD700;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px rgba(255, 223, 0, 0.7);
+}
+
+.flower {
+    position: relative;
+    margin: 0 auto;
+    top: 150px;
+}
+
+.stem {
+    width: 5px;
+    height: 150px;
+    background-color: #32a852;
+    margin: 0 auto;
+    position: relative;
+}
+
+.leaf {
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    background-color: #32a852;
+    border-radius: 20px;
+    left: 148px;
+    top: 60px;
+}
+
+.flower-head {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: -200px;
+}
+
+.petal {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #FFDD57;
+    border-radius: 50%;
+}
+
+.p1 {
+    top: 0;
+    left: 20px;
+}
+
+.p2 {
+    top: 20px;
+    left: 0;
+}
+
+.p3 {
+    top: 20px;
+    left: 40px;
+}
+
+.p4 {
+    top: 40px;
+    left: 20px;
+}
+
+.center {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #FFA500;
+    border-radius: 50%;
+}
